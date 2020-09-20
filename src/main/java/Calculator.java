@@ -20,11 +20,11 @@ public class Calculator{
     }
 
     public double squareRoot(double x){
-        return squareRoot(x);
+        return Math.sqrt(x);
     }
 
     public double power(double x, int power){
-        return power(x, power);
+        return Math.pow(x, power);
     }
 
     public static void main(String args[]){
